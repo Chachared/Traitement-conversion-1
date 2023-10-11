@@ -1,0 +1,53 @@
+Comparaison des champs 
+Excel | BDD
+"car_ebayID"[0] |"ebay_id"[2]
+"car_tdID"[1] | "td_id"[1]
+"car_c4cID"[2] | "c4c_id"[0]
+"car_odooID"[supprimé],
+"car_info_ID"[supprimé],
+"car_mod_ID"[supprimé],
+"car_eng_ID"[supprimé],
+"car_restriction_ID"[supprimé],
+"car_fuel"[3] | "car_fuel"[3]
+"car_nbShift"[4] | "car_nb_shift"[4]
+"car_desc"[5] | "car_desc"[5]
+"car_trans"[6] | "car_trans"[6]
+"car_trim"[7] |"car_trim"[7]
+"car_version"[8] | "car_version"[8]
+"car_plat"[9] | "car_plat"[9]
+"car_YFrom"[10] | "car_d_from"[12] (script 3_dates_ISO8601.py)
+"car_Yto"[11] | "car_d_to"[13] (script 3_dates_ISO8601.py)
+"car_year"[supprimé] |  (script 3_dates_ISO8601.py)
+"car_d_from"[12] | "car_y_from"[10] (créé par le script 3 avec les data de "car_year"),
+"car_d_to"[13] | "car_y_to"[11] (créé par le script 3 avec les data de "car_year"),
+"ABC_ranking"[14] | "car_ranking"[14]
+"model_ID"[supprimé],
+"model_mark"[15] | "car_mark"[15]
+"model_name"[16] | "car_name"[16]
+"model_doors"[17] | "car_doors"[17]
+"model_chassis"[18] | "car_chassis"[18]
+"model_YFrom"[19] |"car_model_y_from"[19]
+"model_YTo"[21] |"car_model_y_to"[20]
+"engine_ID"[supprimé],
+"engine_code"[22] | "car_code"[21]
+"engine_desc"[23] | "car_engine_desc"[22]
+"engine_aspi"[24] | "car_aspi"[23]
+"engine_alim"[25] | "car_alim"[24]
+"engine_nameCyl"[26] | "car_name_cyl"[25]
+"engine_valve"[27] | "car_valve"[26]
+"engine_KW"[28] |"car_kw"[27]
+"engine_CV"[29] |"car_cv"[28]
+"engine_disp"[30] | "car_disp"[29]
+"engine_Cyl"[31] |"car_cyl"[30]
+"engine_nbCyl"[32] | "car_nb_cyl"[31]
+"engine_type"[33] | "car_type"[32]
+"car_image"[34] | "car_image"[39] (ajouté dans le script 4),
+"info_ID"[supprimé],
+"info_ABC"[supprimé],
+"info_dateAdd"[35] | "car_date_add"[33]
+"info_URL"[36] | "car_url"[34]
+"info_user"[37] | "car_user"[35]
+"info_method"[38] | "car_method"[36]
+"info_valid"[39] | "car_valid"[37]
+"info_state"[supprimé] 
+"info_comment"[40] | "car_comment"[38]

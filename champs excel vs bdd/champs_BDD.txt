@@ -1,0 +1,41 @@
+BDD_column_types 
+    "c4c_id"[0]:"bigint",
+    "td_id"[1]: "int",
+    "ebay_id"[2]:"bigint",
+    "car_fuel"[3]:"varchar(50)",
+    "car_nb_shift"[4]:"varchar(50)",
+    "car_desc"[5]:"varchar(100)",
+    "car_trans"[6]:"varchar(50)",
+    "car_trim"[7]:"varchar(100)",
+    "car_version"[8]:"varchar(100)",
+    "car_plat"[9]:"varchar(100)",
+    "car_d_from"[10]:"date", modifié dans la BDD
+    "car_d_to"[11]:"date", modifié dans la BDD
+    "car_y_from"[12]:"int",
+    "car_y_to"[13]:"int",
+    "car_ranking"[14]:"varchar(50)",
+    "car_mark"[15]:"varchar(50)",
+    "car_name"[16]:"varchar(100)",
+    "car_doors"[17]:"varchar(50)",
+    "car_chassis"[18]:"varchar(50)",
+    "car_model_y_from"[19]:"int", modifié dans la BDD
+    "car_model_y_to"[20]:"int", modifié dans la BDD
+    "car_code"[21]:"varchar(50)",
+    "car_engine_desc"[22]:"varchar(50)",
+    "car_aspi"[23]:"varchar(50)",
+    "car_alim"[24]:"varchar(50)",
+    "car_name_cyl"[25]:"varchar(50)",
+    "car_valve"[26]:"varchar(50)",
+    "car_kw"[27]:"varchar(50)",
+    "car_cv"[28]:"varchar(50)",
+    "car_disp"[29]:"varchar(50)",
+    "car_cyl"[30]:"varchar(50)",
+    "car_nb_cyl"[31]:"int",
+    "car_type"[32]:"varchar(50)"
+    "car_date_add"[33]:"date",
+    "car_url"[34]:"varchar(255)",
+    "car_user"[35]:"varchar(100)"
+    "car_method"[36]:"varchar(50)",
+    "car_valid"[37]:"boolean",
+    "car_comment"[38]:"varchar(255)",
+    "car_image"[39]:"bytea"
